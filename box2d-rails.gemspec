@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["rm.sylvester@gmail.com"]
   gem.description   = %q{Box2d js for Rails.}
   gem.summary       = %q{Box2d js for Rails.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/manwithtwowatches/box2d-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
